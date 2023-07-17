@@ -1,0 +1,13 @@
+
+public class SecondLastDigitNumber {
+    public static void main(String args[]) {
+      int num = 765432;
+      // Method 1
+      int digit = (num % 100) / 10;
+      System.out.println(num + " second last digit number is: " + digit);
+      
+      // Method 2
+      digit = (num /10) % 10;
+      System.out.println(num + " second last digit number is: " + digit);
+    }
+}
